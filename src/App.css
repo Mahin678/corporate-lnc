@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap");
+/*
+for-description - font-family: 'Open Sans', sans-serif;
+For-title - font-family: 'Poppins', sans-serif;
+For Tittle (Optional) - font-family: 'Roboto', sans-serif;
+ */
+
+/* 
+ 
+ Big Title Size- 
+     font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+    Big Des size - 
+     max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    text-transform: Capitalize;
+    font-size: 16px;
+    color: #9f9b9b;
+    transition: all 0.5s;
+
+    Small- title size 
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    margin: 20px 0px;
+    transition: all 0.5s;
+    font-weight: bold;
+    
+    small desc size 
+      font-family: "Open Sans", sans-serif;
+    color: #9f9b9b;
+    font-size: 15px;
+ 
+ */
+html {
+    scroll-behavior: smooth;
+}

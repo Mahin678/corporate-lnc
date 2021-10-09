@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.serviceCar-main {
+}
+.serviceCar-main__Title {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.serviceCar-main__Desc {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    text-transform: Capitalize;
+    font-size: 16px;
+    color: #9f9b9b;
+    transition: all 0.5s;
+}
+
+.serviceCar-main__Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serviceCar-main__card__item {
+    text-align: center;
+    max-width: 400px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 10px;
+}
+.serviceCar-main__card__item:hover .serviceCar-main__item__title {
+    color: red;
+}
+.serviceCar-main__item__icon {
+    margin: 10px 0px 20;
+}
+.serviceCar-main__item__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    margin: 20px 0px;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+.serviceCar-main__item__desc {
+    font-family: "Open Sans", sans-serif;
+    color: #9f9b9b;
+    font-size: 15px;
+}
+/* specific style */
+.service-one-style {
+    transform: skew(1deg, 1deg);
+    border: 2px solid #e1e1e1;
+}
+.service-one-style:hover {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 20%);
+    transform: translatey(-5px);
+}
+.service-two-style {
+    border: 2px solid #e1e1e1;
+    margin-top: 20px;
+}
+.service-two-style:hover {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 20%);
+    transform: translatey(-5px);
+}
+
+.service-three-style {
+    transform: skew(359deg, 359deg);
+    border: 2px solid #e1e1e1;
+}
+
+.service-three-style:hover {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 20%);
+    transform: translatey(-5px);
+}
+.serviceCar-main__item__btn {
+    text-decoration: none;
+}

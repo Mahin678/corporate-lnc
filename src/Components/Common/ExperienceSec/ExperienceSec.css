@@ -1,0 +1,37 @@
+.experienceSec-main {
+    display: flex;
+    background-color: #000;
+}
+.experienceSec-main__img {
+    width: 50%;
+}
+.experienceSec-main__img img {
+    display: block;
+    width: 100%;
+}
+.experienceSec-main__content {
+    color: #fff;
+    width: 50%;
+    margin: auto 0px;
+}
+.experienceSec-main__content span {
+    color: #eaa636;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.experienceSec-main__content p {
+    max-width: 500px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    text-transform: Capitalize;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.experienceSec-main__content h2 {
+    margin: 20px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}

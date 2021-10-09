@@ -1,0 +1,88 @@
+.WhoWeAre-main {
+}
+.WhoWeAre-main__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.WhoWeAre-main__Desc {
+    width: 100%;
+    height: 388px;
+    overflow: hidden;
+    position: relative;
+}
+.WhoWeAre-main__Desc img {
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: 1s;
+    display: block;
+    width: 100%;
+    height: 388px;
+    object-fit: cover;
+    z-index: 0;
+}
+.WhoWeAre-main__Desc:hover img {
+    transform: scale(1.1);
+}
+.WhoWeAre-main__Desc p {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    color: #fff !important;
+    z-index: 1;
+    font-size: 22px;
+    text-transform: Capitalize;
+}
+.WhoWeAre-main__Desc span {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: #fff !important;
+    z-index: 1;
+    font-size: 42px;
+    text-transform: Capitalize;
+}
+.WhoWeAre-main__PersonMain {
+    display: flex;
+    justify-content: space-between;
+}
+.WhoWeAre-main__person {
+    margin-top: 3rem;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+}
+.WhoWeAre-main__person img {
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: 1s;
+    display: block;
+    width: 350px;
+    height: 400px;
+    max-width: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+.WhoWeAre-main__person:hover img {
+    transform: scale(1.1);
+}
+.WhoWeAre-main__person__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgb(0 0 0 / 40%);
+    width: 100%;
+    padding: 10px 20px;
+}
+.WhoWeAre-main__person__info span {
+    display: block;
+}
