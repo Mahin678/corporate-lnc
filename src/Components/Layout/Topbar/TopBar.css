@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .navbar ul li a {
-    color: #000;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 40px 15px;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 40px 15px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 }
 .navbar-brand {
-    padding: 20px 0;
+	padding: 20px 0;
 }
 .slide-img {
-    height: 90vh;
-    object-fit: cover;
+	height: 100%;
 }

@@ -11,9 +11,13 @@ const Header = () => {
 		'Let us communicate with the larger market of finance to ensure your capital flows in rhythm, while you can entirely focus on your other priorities... Let us like be your extended family who make sure that all your wings get stronger as each day passes by!';
 	return (
 		<div>
-			<Carousel indicators={false} interval="3000">
+			<Carousel indicators={false} interval="4000">
 				<Carousel.Item>
-					<img src={img4} className=" slide-img d-block w-100" alt="..." />
+					<img
+						src={img1}
+						className="hpx slide-img d-block w-100"
+						alt="..."
+					/>
 
 					<Carousel.Caption>
 						<div className="py-5">
@@ -27,18 +31,20 @@ const Header = () => {
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
-					<img src={img1} className=" slide-img d-block w-100" alt="..." />
+					<img
+						src={img4}
+						style={{ objectFit: 'container' }}
+						className=" hpy slide-img d-block w-100"
+						alt="..."
+					/>
 
 					<Carousel.Caption>
 						<div className="py-5">
-							<div className="carousel-caption ">
-								<h1>YOU CAN, IF YOU BELIEVE YOU CAN</h1>
-								<h3>{text}</h3>
-							</div>
+							<div className="carousel-caption "></div>
 						</div>
 					</Carousel.Caption>
 				</Carousel.Item>
-				<Carousel.Item>
+				{/* <Carousel.Item>
 					<img src={img2} className=" slide-img d-block w-100" alt="..." />
 
 					<Carousel.Caption>
@@ -49,8 +55,8 @@ const Header = () => {
 							</div>
 						</div>
 					</Carousel.Caption>
-				</Carousel.Item>
-				<Carousel.Item>
+				</Carousel.Item> */}
+				{/* <Carousel.Item>
 					<img src={img3} className=" slide-img d-block w-100" alt="..." />
 					<Carousel.Caption>
 						<div className="py-5">
@@ -60,7 +66,7 @@ const Header = () => {
 							</div>
 						</div>
 					</Carousel.Caption>
-				</Carousel.Item>
+				</Carousel.Item> */}
 			</Carousel>
 			{/* <div
         id="carouselExampleControls"
@@ -127,9 +133,6 @@ const Header = () => {
           <span className="sr-only">Next</span>
         </a>
       </div> */}
-			<div className="text-center">
-				<img className="new-year-img" src={img4} alt="" />
-			</div>
 		</div>
 	);
 };
